@@ -29,6 +29,6 @@ DECODER_LIVE_CONFIG = {
     //   'codabar_reader', 'upc_reader', 'upc_e_reader', 'i2of5_reader'],
     readers: ['ean_reader'], // To have a better performance, let's just pass only one type of barcode
   },
-  locate: true,
+  locate: false,
 };
 

@@ -34,6 +34,12 @@ export class BarcodeDecoderService {
           max: 2,
         },
       },
+      area: { // defines rectangle of the detection/localization area
+        top: "20%",    // top offset
+        right: "0%",  // right offset
+        left: "0%",   // left offset
+        bottom: "20%"  // bottom offset
+      }
     };
     return DECODER_LIVE_CONFIG;
   }
